@@ -1,6 +1,5 @@
 // Assignment name: __________
 //
-//
 // Programmer name: __________
 // Date completed:  __________
 

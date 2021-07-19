@@ -8,19 +8,23 @@ package main
 import "fmt"
 
 func main() {
-  // NOTE: you should use fmt.Printf with appropriate printing "verbs" for all
+  // NOTE: use fmt.Printf with appropriate printing "verbs" for all
   //       of your outputs
 
 	// 1. Declare a string variable and assign it the value of the current day of the week
+  //    (Monday, Tuesday, ...)
 
 
   // 2. Declare a string variable and assign it the value of the current month
+  //    (January, February, ...)
 
 
   // 3. Declare an integer variable and assign it the value of the current date
+  //    (1-31)
 
 
   // 4. Declare an integer variable and assign it the value of the current year
+  //    (2020, 2021, ...)
 
 
   // 5. Print a message: "Today is DAY, MONTH DATE, YEAR."
@@ -35,7 +39,8 @@ func main() {
   var temperature float64 = 99.5
 
 	// 7. Print a message: "The temperature in CITY is currently TEMPERATURE degrees."
-	//    (fill in CITY/TEMPERATURE with the appropriate variables)
+	//    (fill in CITY/TEMPERATURE with the appropriate variables and format the temperature
+  //      to one digit after the decimal, "%.1f"))
   //    EXAMPLE: The temperature in Chico is currently 99.5 degrees.
 
 
@@ -46,7 +51,8 @@ func main() {
 
 
   // 10. Print a message: "The temperature in CITY is currently TEMPERATURE degrees."
-	//     (fill in CITY/TEMPERATURE with your variables)
+	//     (fill in CITY/TEMPERATURE with your variables and format the temperature
+  //      to one digit after the decimal, "%.1f")
   //     EXAMPLE: The temperature in Chicago is currently 79.0 degrees.
 
 }

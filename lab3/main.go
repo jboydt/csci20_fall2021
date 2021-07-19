@@ -45,7 +45,7 @@ func main() {
   // 7c. Read in a value for the temperature
 
   // 8. Print a message: "The temperature in CITY is currently TEMPERATURE degrees."
-	//    (fill in CITY/TEMPERATURE with the appropriate variables and format the temperature
+  //    (fill in CITY/TEMPERATURE with the appropriate variables and format the temperature
   //      to two (2) digits after the decimal))
   //    EXAMPLE: The temperature in Chico is currently 99.50 degrees.
 }

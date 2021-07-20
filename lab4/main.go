@@ -29,7 +29,8 @@ func main() {
   // 6. Declare two float64 variables
   //    Prompt for and read in values for both float variables
 
-  // 7. Print a message: "You entered A and B."
+  // 7. Print a message: "You entered A and B." -- use formatting
+  //    to show two decimal places for all values
   //    (replace A and B with your variables so that their values are displayed)
 
   // 8. Compute and display the results of applying all arithmetic operators

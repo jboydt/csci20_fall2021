@@ -25,6 +25,7 @@ func main() {
   //    Print messages showing each result (e.g., "X + Y = Z")
   //    (replace X, Y, and Z with your variables and the computed result so that
   //     all three values are displayed)
+  //    HINT: to display modulo symbol in fmt.Printf, use "%%"
 
   // 6. Declare two float64 variables
   //    Prompt for and read in values for both float variables

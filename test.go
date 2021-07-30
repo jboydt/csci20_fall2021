@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	var x int = 100
-	//var y int = 27
+func Riddle() {
+	fmt.Printf("riddle me ")
+	return
+	fmt.Printf("this")
+}
 
-	x %= 33
-	fmt.Println(x)
+func main() {
+	Riddle()
 }

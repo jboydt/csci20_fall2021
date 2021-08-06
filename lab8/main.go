@@ -69,12 +69,14 @@ func TakeWalk(outlook, humidity, wind string) bool {
 // 11:   Jack
 // 12:   Queen
 // 13:   King
+// invalid value: ERROR
 //
 // Suits:
 // c or C: Clubs
 // d or D: Diamonds
 // h or H: Hearts
 // s or S: Spades
+// invalid suit: ERRO
 //
 // EXAMPLES:
 //
@@ -82,6 +84,7 @@ func TakeWalk(outlook, humidity, wind string) bool {
 // PrettyPlayingCard(2, "D") returns "2 of Diamonds"
 // PrettyPlayingCard(10, "h") returns "10 of Hearts"
 // PrettyPlayingCard(13, "H") returns "King of Hearts"
+// PrettyPlayingCard(0, "x") returns "ERROR of ERROR"
 func PrettyPlayingCard(value int, suit string) string {
   return ""
 }

@@ -5,16 +5,15 @@ import (
 )
 
 func main() {
-	x := 42
+	weeklyTemperatures := make([]float64, 7)
+	weeklyTemperatures[1] = 82.5
+	weeklyTemperatures[5] = 98.7
 
-	switch {
-	case x > 42:
-		fmt.Printf("Too high\n")
-	case x < 42:
-		fmt.Printf("Too low\n")
-	case x == 42:
-		fmt.Printf("That is the answer!\n")
-	default:
-		fmt.Printf("Impossible?\n")
-	}
+	for i := 0; i < len(weeklyTemperatures); i++ {
+		fmt.Printf("%.1f", weeklyTemperatures[i])
+		if i < len(weeklyTemperatures) - 1 {
+			fmt.Printf(" - ")
+        	}
+    	}
 }
+

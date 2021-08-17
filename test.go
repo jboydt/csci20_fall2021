@@ -1,19 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	weeklyTemperatures := make([]float64, 7)
-	weeklyTemperatures[1] = 82.5
-	weeklyTemperatures[5] = 98.7
+	yourLuckyNumbers := [4]int{37, 41, 43, 47}
+	myLuckyNumbers := append(yourLuckyNumbers[:2], 17, 19)
 
-	for i := 0; i < len(weeklyTemperatures); i++ {
-		fmt.Printf("%.1f", weeklyTemperatures[i])
-		if i < len(weeklyTemperatures) - 1 {
-			fmt.Printf(" - ")
-        	}
-    	}
+	fmt.Printf("%v\n", myLuckyNumbers)
 }
-

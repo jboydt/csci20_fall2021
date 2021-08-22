@@ -2,9 +2,19 @@ package main
 
 import "fmt"
 
-func main() {
-	yourLuckyNumbers := [4]int{37, 41, 43, 47}
-	myLuckyNumbers := append(yourLuckyNumbers[:2], 17, 19)
+type Treasure struct {
+	description string
+	value int
+}
 
-	fmt.Printf("%v\n", myLuckyNumbers)
+func main() {
+	//var t1 Treasure
+	//var t2 = Treasure{"Gold Coins", 100}
+	var t3 = Treasure{value: 500, description: "Rubies"}
+	//t4 := Treasure{description: "Wool Scarf"}
+	//t5 := new(Treasure)
+
+	fmt.Printf("%v\n", t3)
+
+	fmt.Printf("Done\n\n")
 }

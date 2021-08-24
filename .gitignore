@@ -14,5 +14,6 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-# Ignore my notes to myself
+# Misc
 NOTES.txt
+test.go

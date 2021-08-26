@@ -1,3 +1,8 @@
+// Item and ShoppingList
+//
+// Programmer name: __________
+// Date completed:  __________
+
 package main
 
 import "fmt"

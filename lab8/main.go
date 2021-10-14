@@ -61,7 +61,7 @@ func TakeWalk(outlook, humidity, wind string) bool {
 }
 
 // PrettyPlayingCard returns a string representation of a playing card, given
-// a value (1-14) and a suit (c/C, d/D, h/H, s/S).
+// a value (1-13) and a suit (c/C, d/D, h/H, s/S).
 //
 // Values:
 // 1:    Ace
@@ -76,7 +76,7 @@ func TakeWalk(outlook, humidity, wind string) bool {
 // d or D: Diamonds
 // h or H: Hearts
 // s or S: Spades
-// invalid suit: ERRO
+// invalid suit: ERROR
 //
 // EXAMPLES:
 //

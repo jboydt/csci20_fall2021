@@ -40,6 +40,8 @@ func ComputeAverage(pointsEarned, pointsPossible float64) {
 }
 
 func main() {
+  HelloWorld()
+
   // 5. Declare a variable (string), prompt for, and read in a person's name
   // 6. Invoke GreetUser -- pass in the name variable as its argument
 

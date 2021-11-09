@@ -1,7 +1,7 @@
 // Lab 12 -- slice expressions
 //
-// Programmer name: KEY
-// Date completed:  17 August 2021
+// Programmer name: __________
+// Date completed:  __________
 
 package main
 

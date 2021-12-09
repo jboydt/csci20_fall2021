@@ -58,7 +58,7 @@ func (s *ShoppingList) IncreaseItemQuantity(i Item) {
 //            (1) ITEM_NAME, QUANTITY @ $PRICE_PER_ITEM each
 //            (2) ITEM_NAME, QUANTITY @ $PRICE_PER_ITEM each
 //
-// EXAMPLE:   Boyd's Grocery List
+// EXAMPLE:   Boyd's Grocery List:
 //            (1) apples, 3 @ $0.75 each
 //            (2) oranges, 2 @ $1.50 each
 func (s *ShoppingList) ToString() string {
